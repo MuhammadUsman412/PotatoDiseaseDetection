@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Insert</title>
+</head>
+<body>
+	<h1>Insert into Database</h1>
+	<form action="/insertdb" method="POST">
+		<input type="text" name="img_name">Img Name
+		<input type="text" name="to_check">Source
+		<input type="text" name="predict">Prediction
+		<input type="text" name="percent">Percentage
+		<input type="submit" name="insertsumbit" value="Insert">
+	</form>
+	<hr>
+	<form action="/testing" method="Get" enctype="multipart/form-data">
+		<input type="submit" name="toresult">
+	</form>
+</body>
+</html>

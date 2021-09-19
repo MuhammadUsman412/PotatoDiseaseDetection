@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+	<h1>Potato Disease Detection Server is Running</h1>
+	<form action="/uploader" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file" multiple="True">
+		<input type="submit">
+	</form>
+	<br>
+	<hr>
+	<br>
+	<form action="/login" method="POST" enctype="multiple/form-data">
+		<input type="text" name="email" placeholder="email"><br><br>
+		<input type="password" name="pass"><br><br>
+		<input type="submit" name="database">
+	</form>
+	<br>
+	<hr>
+	<br>
+	<form action="/signup" method="POST" enctype="multiple/form-data">
+		<input type="text" name="email" placeholder="email"><br><br>
+		<input type="password" name="pass"><br><br>
+		<input type="submit" name="database">
+	</form>
+</body>
+</html>

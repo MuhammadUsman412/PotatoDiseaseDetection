@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+</head>
+<body>
+	<h1>Testing</h1>
+	<h2>Testing Phase for DB</h2>
+	<form action="/testing" method="POST">
+		<input type="submit" name="report" value="Get Result">
+	<hr>
+	<form action="/testinsert" method="POST">
+		<input type="text" name="img_name">Img Name
+		<input type="text" name="to_check">Source
+		<input type="text" name="predict">Prediction
+		<input type="text" name="percent">Percentage
+		<input type="submit" name="insertsumbit" value="Insert">
+	</form>
+	<hr>
+	<h2>Here Is: {{ value }}</h2>
+	</form>
+</body>
+</html>
